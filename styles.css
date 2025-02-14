@@ -1,0 +1,138 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    color: #333;
+  }
+  
+  .bg-pink-100 {
+    background-color: #fce4ec; /* Light pink background */
+  }
+  
+  .bg-red-500 {
+    background-color: #f44336; /* Red background */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-red-500 {
+    color: #f44336; /* Red text */
+  }
+  
+  .text-4xl {
+    font-size: 2.5rem;
+  }
+  
+  .text-3xl {
+    font-size: 2rem;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .m-0 {
+    margin: 0;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .flex {
+    display: block; /* Change from flex to block for vertical arrangement */
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .rounded-t-lg {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .rounded-b-lg {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .moving-heart {
+    animation: move-heart 2s infinite alternate;
+  }
+  
+  @keyframes move-heart {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .hover\:bg-red-600:hover {
+    background-color: #d32f2f; /* Darker red when hovered */
+  }
+  
+  /* Center image and text */
+  img {
+    max-width: 100%; /* Allow images to be responsive */
+    height: 300px; /* Fixed height */
+    object-fit: cover; /* Ensure the images cover the assigned area */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem; /* Rounded corners */
+  }
+  
+  /* Add spacing between sections */
+  section.my-8 {
+    margin-bottom: 2rem; /* Add bottom margin to each section */
+  }
+  
+  /* Adjust the spacing between images */
+  section img {
+    margin-bottom: 1rem; /* Space between each image */
+  }
+  
+  /* Button styling */
+  button {
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
